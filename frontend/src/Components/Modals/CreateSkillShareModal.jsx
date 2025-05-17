@@ -76,7 +76,7 @@ const CreateSkillShareModal = () => {
     setUploadingMedia(true);
     
     try {
-      // Process all files in parallel
+      // Process ANY files in parallel
       const uploadPromises = files.map(async (file) => {
         const fileType = file.type.split("/")[0];
         
