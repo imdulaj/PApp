@@ -5,6 +5,9 @@ import NotificationService from '../../Services/NotificationService';
 import { useSnapshot } from 'valtio';
 import state from '../../Utils/Store';
 
+// NotificationsDropdown component
+// This component fetches and displays user notifications
+
 const NotificationsDropdown = () => {
   const [notifications, setNotifications] = useState([]);
   const [unreadCount, setUnreadCount] = useState(0);

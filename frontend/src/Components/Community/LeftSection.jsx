@@ -7,6 +7,9 @@ const LeftSection = () => {
   const handleContext = (index) => {
     state.activeIndex = index;
   };
+
+  //left section
+  //this section contains the profile image and the other images
   return (
     <div class="left">
       <div

@@ -20,7 +20,7 @@ const themeColors = {
   border: "rgba(0, 0, 0, 0.12)", // Subtle neutral border (unchanged)
   hover: "#0CA678", // Slightly darker teal for hover effects
   danger: "#FF4D4F", // Maintained the same red for warnings
-  success: "#28A745", // Kept the same green for success messages
+  success: "#28A745", 
   gradient: "linear-gradient(135deg, #20C997 0%, #38D9A9 100%)", // Teal to mint gradient
 };
 
