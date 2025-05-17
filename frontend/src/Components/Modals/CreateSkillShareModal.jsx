@@ -80,7 +80,7 @@ const CreateSkillShareModal = () => {
       const uploadPromises = files.map(async (file) => {
         const fileType = file.type.split("/")[0];
         
-        // Validate video duration if it's a video
+        // Validate video duration if it is a video
         if (fileType === "video") {
           const isValid = await validateVideoDuration(file);
           if (!isValid) {
