@@ -17,6 +17,9 @@ import SkillShareService from "../../Services/SkillShareService";
 
 const { Title, Text, Paragraph } = Typography;
 
+// SkillShareCard component
+// This component displays a skill sharing post with media, description, and action buttons.
+
 // Theme colors
 const themeColors = {
   primary: "#20C997", // Vibrant teal as primary brand color

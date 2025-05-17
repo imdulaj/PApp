@@ -3,6 +3,8 @@ import { useSnapshot } from "valtio";
 import state from "../../Utils/Store";
 import StoryCard from "./StoryCard";
 
+//story box component
+
 const StoryBox = () => {
   const snap = useSnapshot(state);
   return (

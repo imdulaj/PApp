@@ -27,6 +27,10 @@ const themeColors = {
   gradient: "linear-gradient(135deg, #20C997 0%, #38D9A9 100%)", // Teal to mint gradient
 };
 
+// This component is a modal for creating a Skill Share post
+// It allows users to upload media files and enter descriptions
+
+
 const CreateSkillShareModal = () => {
   const snap = useSnapshot(state);
   const [loading, setLoading] = useState(false);
