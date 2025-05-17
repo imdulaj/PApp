@@ -112,7 +112,7 @@ class AuthService {
     }
   }
 
-  // Logout the user
+  // Logout the user from system
   logout() {
     localStorage.removeItem("accessToken");
     localStorage.removeItem("refreshToken");
