@@ -27,6 +27,10 @@ const themeColors = {
   gradient: "linear-gradient(135deg, #20C997 0%, #38D9A9 100%)", // Teal to mint gradient
 };
 
+// This component is a modal for creating a Skill Share post
+// It allows users to upload media files and enter descriptions
+
+
 const CreateSkillShareModal = () => {
   const snap = useSnapshot(state);
   const [loading, setLoading] = useState(false);
@@ -76,11 +80,11 @@ const CreateSkillShareModal = () => {
     setUploadingMedia(true);
     
     try {
-      // Process all files in parallel
+      // Process ANY files in parallel
       const uploadPromises = files.map(async (file) => {
         const fileType = file.type.split("/")[0];
         
-        // Validate video duration if it's a video
+        // Validate video duration if it is a video
         if (fileType === "video") {
           const isValid = await validateVideoDuration(file);
           if (!isValid) {

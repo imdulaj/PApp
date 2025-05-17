@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import state from "../../Utils/Store";
 import { useSnapshot } from "valtio";
 
+// This component is a SkillShareBox that allows users to share their skills.
+// It features a profile picture, an input field for sharing skills,
+
 // Theme colors (matching the previous component)
 const themeColors = {
   primary: "#20C997", // Vibrant teal as primary brand color
