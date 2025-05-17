@@ -2,6 +2,10 @@ import React, { useEffect, useState } from "react";
 import UserService from "../../Services/UserService";
 import state from "../../Utils/Store";
 
+//story card component
+// This component is responsible for displaying individual story cards in the story box.
+// It fetches user data based on the userId associated with the story card and displays the user's profile image and name.
+
 const StoryCard = ({ card }) => {
   const [userData, setUserData] = useState();
   useEffect(() => {
