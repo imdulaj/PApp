@@ -1,5 +1,8 @@
 import React from "react";
 
+//contact card
+//this section contains the contact card
+
 const ContactCard = () => {
   return (
     <div class="contact">
