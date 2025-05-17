@@ -2,6 +2,9 @@ import React from "react";
 import "../../Styles/right_section.css";
 import Contacts from "./Contacts";
 const RightSection = () => {
+
+  // Function to handle the click event for the "See All" button
+  
   return (
     <div class="right">
       <div class="first_warpper">
