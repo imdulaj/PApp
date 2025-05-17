@@ -76,11 +76,11 @@ const CreateSkillShareModal = () => {
     setUploadingMedia(true);
     
     try {
-      // Process all files in parallel
+      // Process ANY files in parallel
       const uploadPromises = files.map(async (file) => {
         const fileType = file.type.split("/")[0];
         
-        // Validate video duration if it's a video
+        // Validate video duration if it is a video
         if (fileType === "video") {
           const isValid = await validateVideoDuration(file);
           if (!isValid) {
