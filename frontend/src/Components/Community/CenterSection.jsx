@@ -14,6 +14,7 @@ import FriendsSection from "./FriendsSection";
 import NotificationsDropdown from "./NotificationsDropdown"
 import { Tabs, Avatar, Row, Col } from "antd";
 
+
 const { TabPane } = Tabs;
 
 const CenterSection = () => {
@@ -47,7 +48,7 @@ const CenterSection = () => {
             fontWeight: 600,
           }}
         >
-          <img style={{ maxHeight: 60 }} src="/assets/TESTMASTER.svg" alt="logo" />
+          <img style={{ maxHeight: 60 }} src="\assets\PowerFitness.svg" alt="logo" />
           TESTMASTER
       
         </div>
