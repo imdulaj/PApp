@@ -16,7 +16,7 @@ const themeColors = {
   hover: "#0CA678", // Slightly darker teal for hover effects
   danger: "#FF4D4F", // Maintained the same red for warnings
   success: "#28A745", // Kept the same green for success messages
-  gradient: "linear-gradient(135deg, #20C997 0%, #38D9A9 100%)", // Teal to mint gradient
+  gradient: "linear-gradient(135deg,rgb(19, 60, 48) 0%, #38D9A9 100%)", // Teal to mint gradient
 };
 
 const MealPlanBox = () => {
