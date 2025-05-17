@@ -7,6 +7,9 @@ const Navbar = () => {
   const snap = useSnapshot(state);
   const currentUser = snap.currentUser;
 
+  // This component is the navigation bar for the application.
+  // It contains the logo on the left and a profile image and notifications dropdown on the right.
+
   return (
     <nav id="nav-bar">
       <div class="left">
