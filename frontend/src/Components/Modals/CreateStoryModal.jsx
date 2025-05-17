@@ -126,6 +126,7 @@ const CreateStoryModal = () => {
     }
   };
 
+  //handle file changes
   const handleFileChange = async (info) => {
     if (info.file) {
       setImageUploading(true);
