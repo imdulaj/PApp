@@ -49,7 +49,7 @@ const CenterSection = () => {
           }}
         >
           <img style={{ maxHeight: 60 }} src="\assets\PowerFitness.svg" alt="logo" />
-          TESTMASTER
+          POWERFITNESS
       
         </div>
         <Avatar
